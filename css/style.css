@@ -1,0 +1,1004 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+ul {
+    list-style: none;
+}
+body {
+	font-family: 'lato','poppins', sans-serif;
+	font-size: 16px;
+	line-height: 23px;
+	position: relative;
+}
+.clear
+{
+    content: "";
+    clear: both;
+    display: block;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;	
+}
+
+                                        /* Main_Container(Header_Container) */
+
+
+.Main-Container {
+    background: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    height: 940px;
+    background-size: cover;
+}
+.banner-img {
+    text-align: center;
+}
+.logo {
+    padding: 80px 0 0 0;
+}
+.logo img {
+    max-width: 227px;
+}
+.header-content {
+    width: 100%;
+    margin: 0 auto;
+	text-align:center;
+    margin-top: 95px;
+}
+.personalized_chocolate_gifts {
+    font-size: 70px;
+    line-height: 57px;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-weight: 275;
+    text-align: center;
+    padding-bottom: 15px;
+}
+._1st_time_ever_in_india_ {
+    font-size: 48px;
+    line-height: 55px;
+    color: #019cde;
+    font-family: "Poppins";
+    font-weight: bold;
+    text-align: center;
+    left: 421.274px;
+}
+.newsletter {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 39px;
+    color: #ffffff;
+    margin-top: 75px;
+}
+.label-text {
+    text-align: center;
+    color: white;
+    font-family: poppins,sans-serif;
+    padding-bottom: 25px;
+}
+#input_container {
+    position: relative;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+}
+.Email_Address {
+    border: none;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: "Lato";
+    font-weight: 400;
+    border-radius: 50px;
+    padding: 5px 18px;
+    width: 535px;
+    height: 50px;
+}
+#input {
+   background: #1a255b;
+    color: #0684c4;
+    margin: 0 auto;
+}
+#input_img {
+    position: absolute;
+    bottom: 15px;
+    width: 27px;
+    height: 20px;
+    margin-left: -55px;
+}
+#input:focus {
+    outline: none;
+}
+::placeholder {
+    color: #0684c4;
+}
+
+                                             /* Main_Content(Middle_Container) */
+
+.Main_Content {
+   height: 1145px;
+    background: #e1dddc;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.Main_Moment {
+    position: relative;
+    padding-bottom: 235px;
+}
+
+.Main_Moment_Image {
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+   
+}
+.Main_Content_Chocolate_Image {
+    display: grid;
+}
+.Main_Content_Chocolate_Img {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+.Main_Content_Chocolate_Img ul {
+    list-style: none;
+    display: grid;
+    padding-right: 30px;
+}
+.Main_Content_Chocolate_Img ul:last-child {
+    padding-right: 0;
+}
+li.Step_Image1  {
+    float: left;
+    display: block;
+}
+li.Step_Image2  {
+    float: left;
+    display: block;
+}
+li.Step_Image3 {
+    float: left;
+    display: block;
+   
+}
+.Main_Content_Chocolate_Image_2 {
+    display: table;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+li.Square_Image3 {
+    float: left;
+    display: block;
+}
+.Moment_Image {
+    background:#FFFFFF;
+	box-shadow:1px 2px 2px 2px #999999;
+    width: 100%;
+    max-width: 1310px;
+    margin: 0 auto;
+    margin-top: -286px;
+	border-radius:20px; 
+}
+.Moment_Image:after{
+    clear:both; display:block; content:""; 
+}
+.Moment_Image .banner{     
+	width: 60%;
+    display: table-cell;
+}
+.Moment_Image .banner img{ 
+    width:100%; 
+    margin-left: -51px;
+    margin-bottom: -40px;
+}
+.banner_content {
+    width: 40%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.Moment_Content{
+	text-align: left;
+    max-width:350px;
+}
+h3.Moment_H3 {
+   font-family: poppins;
+    font-size: 35px !important;
+    line-height: normal;
+    color: black;
+    font-weight: bold;
+}
+.Moment_Image_Title_Image {
+    background:url(../images/Vector%20Smart%20Object.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 16px;
+    margin: 10px 0 20px 0;
+}
+.Moment_Image_Title_P {
+    font-size: 16px;
+    color: black;
+    font-family: lato;
+}
+.Personalized_Chocolate_Content {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Personalized_Chocolate {
+    font-size: 32px;
+    color: black;
+    font-family: poppins;
+    font-weight: bold;
+    padding-bottom: 20px;
+    line-height: 1.3;
+}
+span.Chocolate_Color {
+    color: #019cde;
+}
+.Main_Moment_Image2 {
+    width: 100%;
+    box-sizing: border-box !important;
+    margin: 0 auto;
+    height: 520px;
+    text-align: center;
+}
+.Moment_Image2 {
+    max-width: 1310px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    height: 500PX;
+    padding: 50px 20px;
+    position: relative;
+    z-index: 50;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.Main_Moment_Image2_Left {
+    width: 48%;
+    float: left;
+}
+.Moment_Content2 {
+    width: 275px;
+    text-align: initial;
+    position: relative;
+    float: left;
+    left: 40px;
+    padding-top: 30px;
+}
+h3.Moment_H3_2 {
+    font-family: poppins;
+    font-size: 35px !important;
+    line-height: normal;
+    color: black;
+    font-weight: bold;
+}
+.Moment_Image_Title_P2 {
+    font-size: 18px;
+    color: black;
+    font-family: lato;
+}
+.Moment_Image_Title_Image_2 {
+    background: url(../images/Vector%20Smart%20Object.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 16px;
+    margin: 0 0 20px 0;
+}
+.Main_Moment_Image2_Right {
+    width: 52%;
+    float: left;
+}
+
+
+
+                                            /*  Footer_Container  */
+
+.Footer_Container {
+    background: url(../images/mm.jpg);
+    height: 1178px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: #0f1b5c !important;
+}
+.main_footer {
+    margin-bottom: 28px;
+    height: 1090px;
+}
+.Footer_Moment_Content {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 1310px;
+    padding-top: 255px;
+    padding-bottom: 55px;
+}
+.Footer_Moment_Content_Left {
+    width: 48%;
+    float: left;
+    display: inline-block;
+    padding-top: 50px;
+}
+.Footer_Moment_Content_Title {
+    font-size: 35px;
+    color: white;
+    font-family: poppins;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: left;
+}
+.Footer_Moment_Content_Image {
+    margin-bottom: 40px;
+    text-align: left;
+}
+.Footer_Moment_Content_Description {
+    text-align: left;
+}
+.Footer_Moment_Content_Description ul {
+    list-style: none;
+}
+.Footer_Moment_Content_Left li {
+    padding-bottom: 8px;
+}
+span.Double_Icon {
+    padding-right: 1%;
+    font-size: 18px;
+}
+span.Double_Icon:after {
+    content: '\f105 ';
+    font-family: FontAwesome;
+    color:#019cde;
+}
+span.Double_Icon:before {
+    content: '\f105 ';
+    font-family: FontAwesome;
+    color: white;
+}
+.Footer_Moment_Content_Description li {
+    padding: 10px 0;
+}
+.Footer_Moment_Content_Description ul li a {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-family: "Lato";
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+.Footer_Moment_Content_Right {
+   width: 52%;
+    height: 350px;
+    right: 0;
+    position: relative;
+    display: inline-block;
+    margin-top:120px;
+    padding-left: 200px;
+} 
+.Footer_Moment_Content_Right_Image {
+    float:right;
+    width: 100%;
+}
+ul.images {
+    float: left;
+    width: 100%;
+    padding-left: 105px;
+}
+ul.images_2 {
+    float: left;
+    width: 100%;
+    padding-left: 165px;
+}
+.images li {
+    float: left;
+}
+.images_2 li {
+    float: left;
+}
+li.img_1 {
+   padding-right: 135px;
+    padding-top: 30px;
+}
+li.img_2 {
+   padding-right: 115px;
+    padding-top: 75px;
+}
+li.img_4 {
+    float: left;
+    padding-right: 225px;
+    padding-top: 72px;
+}
+li.img_5 {
+    padding-top: 55px;
+}
+				                    /*footer content*/
+
+
+.Footer_Content {
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+    max-width: 1310px;
+    padding-top: 50px;
+}
+.Footer_Content:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+.Footer_Container_Left {
+    width: 746px;
+    float: left;
+}
+.footer_description {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-family: "Lato";
+    font-weight: 400;
+}
+.Footer_Container_Right {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-family: "Lato";
+    position: relative;
+    font-weight: 400;
+    right: 0;
+    float: right;
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+}
+.Phone_No {
+    padding-bottom: 30px;
+}
+.copyright {
+    padding-top: 1150px;
+    font-family: lato;
+    color: #019cde;
+    font-size: 13.50px;
+    text-align: center;
+}
+span.Time_Color {
+    color: white;
+    font-weight: 900;
+}
+.Footer_Line {
+    width: 100%;
+    border: 1px solid rgba(1,156,222,0.4);
+}
+.footer-logo {
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.footer_description {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-family: "Lato";
+    font-weight: 400;
+}
+.CR {
+    background: #1d25738f;
+    text-align: center;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+span.copytext {
+    width: 100%;
+    line-height:60px;
+    font-size: 13.35px;
+    letter-spacing: 1px;
+    color: #019cde;
+    font-family: "Lato";
+    position: relative;
+    font-weight: 400;
+}
+.Main_Moment_Image2_Right img {
+    max-width: 100%;
+}
+.Footer_Moment_Content_Right img {
+    max-width: 100%;
+}
+li.Step_Image1 img {
+    max-width: 100%;
+}
+li.Step_Image2 img {
+    max-width: 100%;
+}
+li.Step_Image3 img {
+    max-width: 100%;
+}
+li.Square_Image1 img {
+    max-width: 100%;
+}
+li.Square_Image2 img {
+    max-width: 100%;
+}
+li.Square_Image3 img {
+    max-width: 100%;
+}
+.footer-logo img {
+    max-width: 100%;
+}
+
+
+
+
+
+                                         /*  Media Query  */
+
+@media only screen and (max-width: 1310px){
+	.hide{
+        display: none;
+    }
+	.Moment_Image{ 
+        background-size:100%; 
+        margin-top: -220px;
+    }
+    .Main_Moment{
+        padding-bottom: 295px;
+    }
+    .Footer_Moment_Content{
+        display: flex;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .Footer_Content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    li.Square_Image1{
+        padding-right: 0;
+    }
+    li.Square_Image2{
+        padding-right: 0;
+    }
+	
+}
+@media only screen and (max-width: 1050px){
+    .Footer_Container_Left{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 1012px){
+    .Footer_Container_Left{
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 900px){
+    .Footer_Moment_Content_Right{
+        padding-left: 100px;
+    }
+}
+@media only screen and (max-width: 798px){
+    .Footer_Container_Left{
+        width: 59%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .logo{
+        padding: 30px 0 0 0;
+    }
+     .Moment_Image_Title_Image_2
+    {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .logo img{
+        max-width: 150px;
+    }
+    .Main-Container{
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .header-content{
+        margin-top: 50px;
+    }
+    .personalized_chocolate_gifts{
+        font-size: 40px;
+        padding-bottom: 15px;
+        line-height: 40px;
+    }
+    ._1st_time_ever_in_india_{
+        font-size: 35px;
+        line-height: 35px;
+        left: 0;
+    }
+    .newsletter{
+        font-size: 35px;
+        letter-spacing: 2px;
+        margin-top: 50px;
+    }
+    .Email_Address{
+        font-size: 13px;
+        width: 345px;
+        height: 45px;
+    }
+    #input_img{
+        width: 20px;
+        height: 13px;
+        margin-left: -50px;
+    }
+    .Main_Content{
+        height: 100%;
+    }
+    .Main_Moment{
+        padding-bottom: 675px;
+      
+    }
+    .Main_Moment_Image{
+        padding: 20px;
+    }
+    .Moment_Image{
+        height: 100%;
+        margin-top: 0;
+        background: none;
+    }
+    .Moment_Content{
+        float: none;
+        right: 0;
+        top: 0;
+        text-align: left;
+        width: 100%;
+        max-width: 100%;
+    }
+    h3.Moment_H3{
+        font-size: 25px !important;
+    }
+    .Moment_Image_Title_Image{
+        height: 100%;
+        background: none;
+        margin: 0;
+    }
+    .Moment_Image_Title_P{
+        font-size: 16px;
+    }
+    .Personalized_Chocolate {
+        font-size: 25px;
+        padding: 0 20px 5px;
+    }
+    .Main_Content_Image{
+        display: block;
+        
+    }
+    .Main_Content_Chocolate_Image {
+        display: block;
+        margin-left: 0;
+    }
+    .Main_Content_Chocolate_Img ul{
+        padding-right: 0;
+    }
+    li.Step_Image1, li.Step_Image2{
+        padding: 0;
+    }
+    .Main_Content_Chocolate_Img {
+        display: block;
+    }
+   .Main_Moment_Image2{
+        width: 90%;
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    .Moment_Image2 {
+        height: 100%;
+        padding-bottom: 20px;
+        padding-top: 0;
+    }
+    .Main_Moment_Image2_Left{
+        width: 100%;
+        display: block;
+    }
+    .Main_Moment_Image2_Right{
+        width: 100%;
+        display: block;
+        float: none;
+        margin: 0;
+    }
+    .Image-FL-Left.Same {
+        height: 250px;
+        top: 0;
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .Image-FL-Right.Same {
+        height: 345px;
+        top: 0;
+        float: none;
+        display: block;
+        right: 0;
+        text-align: center;
+        margin-left: 27px;
+    }
+    .Moment_Content2{
+        float: none;
+        right: 0;
+        top: 0;
+        display: block;
+        width: 100%;
+        margin-top: 25px;
+        text-align: left;
+    }
+    h3.Moment_H3_2{
+        font-size: 20px !important;
+    }
+    /*.Moment_Image_Title_Image_2{
+        display: none;
+    }*/
+    .Moment_Image_Title_P2{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .Img_Bottom img {
+        max-width: 100%;
+    }
+    .Footer_Container{
+        height: 100%;
+    }
+    .main_footer{
+        margin-bottom: 0;
+        height: 100%;
+    }
+    .Footer_Moment_Content{
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        max-width: 1310px;
+        padding: 0px 20px 55px 20px;
+    }
+    .Footer_Moment_Content_Left{
+        padding-top: 10px;
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    .Footer_Moment_Content_Title{
+        font-size: 29px;
+    }
+    .Footer_Moment_Content_Image {
+        display: block;
+    }
+    .Footer_Moment_Content_Right{
+        display: block;
+        margin: 0;
+        width: 60%;
+        padding-left: 0;
+        height: 100%;
+    }
+    .Footer_Moment_Content_Description li{
+        padding: 7px 0;
+    }
+    span.Double_Icon{
+        font-size: 15px;
+    }
+    .Footer_Moment_Content_Description ul li a{
+        font-size: 15px;
+    }
+    ul.images{
+        padding-left: 40px;
+    }
+    ul.images_2{
+        padding-left: 100px;
+    }
+    .Footer_Content{
+        margin: 0 auto;
+        text-align: left;
+        width: 100%;
+        max-width: 1310px;
+        padding: 50px 20px 0 20px;
+    }
+    .Footer_Container_Left{
+        float: none;
+        width: 100%;
+    }
+    .footer-logo{
+        padding-bottom: 10px;
+    }
+    .footer_description{
+        font-size: 15px;
+    }
+    .Footer_Container_Right{
+        float: none;
+        font-size: 15px;
+        padding-bottom: 95px;
+    }
+    .Phone_No{
+        padding-bottom: 15px;
+    }
+    .banner {
+        width: 100%;
+        display: block;
+        padding: 0 0 35px 35px;
+    }
+    .banner_content {
+        width: 100%;
+        display: block;
+        padding: 0 34px;
+    }
+}
+@media only screen and (max-width: 550px){
+    .Main_Moment{
+        padding-bottom: 525px;
+    }
+}
+@media only screen and (max-width: 530px){
+    .Main_Moment{
+        padding-bottom: 500px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .Email_Address{
+        width: 320px;
+    }
+}
+@media only screen and (max-width: 430px){
+    .Main_Moment{
+        padding-bottom: 450px;
+    }
+}
+@media only screen and (max-width: 360px) and (min-width: 321px)
+{
+    .Moment_Image_Title_Image_2
+    {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 320px){   
+    .personalized_chocolate_gifts{
+        font-size: 20px;
+        padding-bottom: 10px;
+        line-height: 22px;
+    }
+    ._1st_time_ever_in_india_{
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .newsletter {
+        margin-top: 20px;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+	.Main_Moment_Image2_Right{
+        width: 100%;
+        display: block;
+    }
+    .Email_Address{
+        width: 250px;
+    }
+    .Main_Content_Chocolate_Img ul{
+        padding-right: 0;
+    }
+    .Main_Moment_Image2{
+        height: 370px;
+    }
+    .Moment_Image2{
+        padding: 0;
+        height: 330px;
+    }
+    .Main_Moment_Image2_Left{
+        width: 100%;
+    }
+    .Moment_Content2{
+        top: 0;
+        padding-top: 0;
+        margin-top: 0;
+        width: 75%;
+        text-align: left;
+    }
+    h3.Moment_H3_2{
+        font-size: 15px !important;
+        padding-top: 10px;
+        line-height: 17px;
+    }
+    .Moment_Image_Title_Image_2{
+        display: block;
+        margin-bottom: 5px;
+    }
+    .Moment_Image_Title_P2{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .Img_Bottom img{
+        width: 260px;
+        padding-left: 20px;
+    }
+    .Main_Moment_Image2_Right img{
+        width: 70%;
+    }
+    .Footer_Moment_Content{
+        padding: 10px 20px 0;
+    }
+    .Footer_Moment_Content_Right{
+        width: 100%;
+        margin: 0;
+        padding-left: 0px;
+    }
+    .Footer_Moment_Content_Image{
+        margin-bottom: 15px;
+    }
+    .Footer_Moment_Content_Right img{
+        width: 250px;
+    }
+    .Footer_Content{
+        width: 100%;
+        padding: 50px 20px 0;
+    }
+    .footer_description{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 20px 0 20px;
+    }
+    .Footer_Moment_Content_Title {
+        font-size: 22px;
+    }
+    span.Double_Icon{
+        font-size: 12px;
+    }
+    .Footer_Moment_Content_Description ul li a {
+        font-size: 12px;
+    }
+    .Footer_Container_Right{
+        font-size: 12px;
+        padding-bottom: 75px;
+        line-height: 15px;
+        float: none;
+        width: 100%;
+    }
+    .Phone_No{
+        padding: 20px 0 20px;
+    }
+    .Address{
+        padding: 20px 0 20px;
+        line-height: 15px;
+    }
+    .Main_Moment{
+        padding-bottom: 300px;
+    }
+    .Main_Moment_Image{
+        padding: 10px;
+    }
+    .banner{
+        padding: 0 0 35px 35px;
+    } 
+    .banner img{
+        margin-left: -51px;
+        margin-bottom: -40px;
+    }
+    .banner_content{
+        padding: 0 22px;
+    } 
+    h3.Moment_H3 {
+        font-size: 13px !important;
+        text-align: left;
+    }
+    .Moment_Image_Title_P{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .Personalized_Chocolate{
+        font-size: 15px;
+        padding: 0 20px 5px;
+    }
+}
